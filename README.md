@@ -5,6 +5,3 @@ the development of a newborn baby and a portfolio page that holds everything tog
 
 ## Tribute page
 in this page I pay tribute to my Brother!
-
-## Local Development
-Open index.html in your browser
