@@ -1,0 +1,85 @@
+main {  
+    background-color: #8A9B0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+  }
+  
+  navbar {
+    position: fixed;
+    background-color:#F8CA00;
+    display: flex;
+    align-items: stretch;
+    justify-content:center;
+    padding: 5px; 
+    width: 100%;
+    font-family: "Varela Round";
+    font-size:30px;  
+  }
+  navbar a {
+    text-decoration: none;
+    color:#490A3D;
+    padding: 5px;
+  }
+  navbar a:hover{
+    color: #E97F02;
+  }
+  
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+  }
+  h1 {
+    font-family: "Varela";
+    padding 10px;
+  } 
+  p {
+    font-family: "Varela";
+  }
+  .projects {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-tile {
+    width: 400px;
+    border-radius: 20px;
+    border-color: #E97F02;
+    border-width: 10px;
+    border-style: solid;
+  }
+  
+  .textContact {  
+    font-family: "Varela Round";
+    font-size:20px;
+  }
+  .imgGithub{
+    width: 20px;
+    border-radius: 5px
+  }
+  .imgFcc {
+    width: 150px;
+  }
+  @media screen and (max-width: 750px){
+    main {
+      grid-template-columns: 1fr;
+      grid-template-areas: "navbar" "mainContent";
+  }
+    navbar {
+      position: inherit;
+    }
+    .project-tile {
+    width: 350px;
+    border-radius: 20px;
+    border-color: #E97F02;
+    border-width: 5px;
+    border-style: solid;
+  }
+   .welcome {
+      font-size: small;
+    }
+  }
